@@ -1,0 +1,158 @@
+
+.nav-top{
+    background-color: rgb(0, 132, 255);
+    box-shadow: 1px 3px 4px rgb(145, 142, 142);
+    
+}
+body{
+    overflow-x: hidden;
+    margin-left: 5px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+}
+.main-input{
+    height: 75%;
+    width: 100%;
+    border: none;
+}
+.log-in{
+    background-color: white;
+    width: 75%;
+    color: rgb(39, 124, 252);
+    border: none ;
+    border-radius: 0;
+    font-weight: bold;
+}
+.submenu{
+    top:80px;
+    width: 250px;
+    right: 30px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.7) ,3px 3px 8px rgba(0,0,0,0.7) ;  
+    z-index: 4;
+}
+.more{
+    position: relative;
+}
+.options{
+    border-bottom: 1px rgb(70, 68, 68);
+    box-shadow: 3px 3px 6px rgb(192, 186, 186);
+}
+.options img{
+    height: 70px;
+}
+
+.options a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.options a:hover{
+    color: blue;
+}
+
+
+.slide-imgs img{
+    width: 100%;
+    height: 200px;
+    
+    
+}
+.slide-imgs{
+    box-shadow: 3px 3px 5px rgb(197, 188, 188),
+    3px 3px 5px rgb(197, 188, 188) ,3px 3px 5px rgb(197, 188, 188);
+}
+.slide-imgs button{
+    background-color: white;
+    height: 90px;
+    width: 100px;
+    border: 1px rgb(136, 132, 132);
+    border-radius: 4px;
+    font-weight: bold;
+  
+}
+.prev{
+    top: 225px;
+    left: 10px;
+
+}
+.nxt{
+    top: 225px;
+    right: 11px;
+}
+.shoes img{
+    height: 150px;
+    width: 120px;
+}
+.shoes{
+    height: 25em;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid rgb(141, 138, 138);
+    box-shadow: 5px 3px 5px rgb(197, 188, 188),
+    3px 3px 5px rgb(197, 188, 188) ,3px 3px 5px rgb(197, 188, 188),5px 3px 5px rgb(197, 188, 188);
+}
+.shoes img:hover{
+   
+    transform: scale(1.15);
+}
+.shoes:hover{
+    transition: all .5s;
+    
+}
+.shoe-btn{
+    top: 32em;
+    float: right;
+    right: 0em;
+    border: 1px bold rgb(221, 218, 218);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 105px;
+    width: 55px;
+    box-shadow: 5px 4px 5px rgb(175, 172, 172),5px 4px 5px rgb(175, 172, 172);
+    border: 1px rgb(136, 132, 132);
+    border-radius: 4px;
+    font-weight: bold;
+    z-index: 5;
+    
+
+}
+.move{
+    transform: translateX(-220px);
+    transition: all 0.2s ease-in;
+}
+
+.shoes-products{
+    width: 1900px;
+ 
+}
+.footer,.copyright{
+    background-color: #172337;
+}
+.footer p{
+    position: relative;
+    left: 2em;
+    font-weight: solid;
+    font-size: 15px;
+}
+.footer ul li a{
+   text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    text-decoration:underline;
+}
+
+span{
+    color: white;
+    margin-left: 1em;
+    float: right;
+}
+.copyright{
+    height: 3em;
+    border-top: 1px bold white;
+    overflow: hidden;
+}
+
+
